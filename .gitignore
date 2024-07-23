@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Ignoring Copyrighted Material, names are in the README and can be found the usual way ;)
+Textbooks/*
