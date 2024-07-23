@@ -33,3 +33,48 @@
 
 # Ignoring Copyrighted Material, names are in the README and can be found the usual way ;)
 Textbooks/*
+
+# Ignoring all object files in subdirectories
+**/*.o
+**/*.obj
+
+# Ignoring all DS_Store files in subdirectories
+**/.DS_Store
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+*.code-workspace.old
+
+# Ignoring user-specific files created by Visual Studio Code
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Ignoring logs created by Visual Studio Code
+*.log
+
+# Other VS Code related files
+.vscode-test/
+
+# C++ cache files
+*.tlog
+*.lastbuildstate
+*.idb
+*.pdb
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# Backup files
+*.bak
+*.swp
+*.swo
+
+# Ignore other temporary files
+*~
